@@ -1,0 +1,52 @@
+# Game media and executable content
+*.iso
+*.xiso
+*.xiso.iso
+*.xbe
+*.xex
+*.cci
+*.chd
+
+# Emulator binaries, firmware, and virtual disks
+*.exe
+*.dll
+*.pdb
+*.bin
+*.rom
+*.img
+*.qcow2
+*.vhd
+*.vhdx
+
+# Downloads, installers, and generated archives
+*.zip
+*.7z
+*.rar
+*.msi
+
+# Runtime and generated state
+*.log
+cache/
+caches/
+shader-cache/
+shader_cache/
+screenshots/
+saves/
+save-data/
+downloads/
+temp/
+tmp/
+
+# Machine-local records
+*.local.tsv
+*.local.json
+*.local.toml
+*.local.env
+.env
+.env.*
+!.env.example
+
+# Windows and editor state
+Thumbs.db
+Desktop.ini
+.vscode/
