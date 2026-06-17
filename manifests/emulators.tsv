@@ -1,1 +1,2 @@
-id	platform	emulator	status	config_path	notes
+emulator_id	platform	display_name	install_status	config_destination	notes
+xemu	xbox	xemu	installed	emulators/xemu/configs	
