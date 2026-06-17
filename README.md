@@ -1,64 +1,51 @@
 # gaming-setup-WIN
 
-Windows gaming environment metadata, configuration, inventory, and recovery records.
+Windows gaming environment metadata, configuration records, inventories, and recovery documentation.
 
-This repository documents the gaming environment and preserves small, durable configuration files. It does not store game media, emulator binaries, firmware, or other large runtime assets.
+This repository preserves the configuration and organizational data required to maintain and reconstruct the gaming environment. It does not contain game media, emulator binaries, firmware, save data, or other large runtime assets.
 
 ## Related Repositories
 
-- `BashScripts-WIN` — bootstrap, installation, maintenance, and automation scripts.
-- `dotfiles-WIN` — development environment configuration.
+- [BashScripts-WIN](https://github.com/soyuz43/BashScripts-Win)  
+  Bootstrap scripts, automation, installation, and maintenance workflows.
 
-`gaming-setup-WIN` stores gaming-specific metadata and configuration.
+- [dotfiles-WIN](https://github.com/soyuz43/dotfiles-WIN)  
+  Development environment configuration for Git Bash, Git, WSL, VS Code, and Windows Terminal.
 
-## Scope
-
-### Included
+## Included
 
 - Emulator configuration files
-- Per-title configuration overrides
-- Game and emulator metadata
+- Per-title emulator overrides
+- Emulator and game metadata
 - Compatibility and troubleshooting notes
 - ReShade presets and installation records
 - Inventory manifests
 - Recovery documentation
 - Configuration templates
 
-### Excluded
+## Excluded
 
 - Game media (`ISO`, `XISO`, `ROM`, `XBE`, `XEX`, `CHD`, etc.)
-- Emulator executables and libraries
-- BIOS, firmware, encryption keys, and virtual disks
-- Save data and runtime caches
-- Screenshots, recordings, and generated archives
+- Emulator executables, libraries, BIOS, firmware, and virtual disks
+- Save files, caches, screenshots, and recordings
+- Download archives and generated backups
 - Credentials, tokens, and private keys
 
 ## Repository Layout
 
 ```
-docs/        Documentation, conventions, and recovery procedures
+docs/        Repository documentation, conventions, and recovery procedures
 emulators/   Emulator-specific configuration and metadata
 manifests/   Inventory and installation records
 reshade/     ReShade presets and installation records
 templates/   Structured record templates
 ```
 
-## Data Categories
+## Managed Platforms
 
-| Category | Purpose |
-|---|---|
-| Configuration | Files consumed by emulators or graphics tools |
-| Metadata | Structured information about games and installations |
-| Inventory | Records of what is installed and where it exists |
-| Recovery | Procedures required to rebuild or repair the environment |
+Current:
+- Original Xbox (`xemu`)
 
-## Current Status
-
-Managed environments:
-
-- xemu (Original Xbox)
-
-Planned support:
-
-- Xenia (Xbox 360)
+Planned:
+- Xbox 360 (`Xenia`)
 - Additional emulators as required
