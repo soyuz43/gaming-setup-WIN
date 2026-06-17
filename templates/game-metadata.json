@@ -1,0 +1,15 @@
+{
+  "title": "",
+  "platform": "",
+  "emulator": "",
+  "region": "",
+  "media": {
+    "filename": "",
+    "format": "",
+    "sha1": ""
+  },
+  "config": null,
+  "reshade_preset": null,
+  "status": "untested",
+  "notes": []
+}

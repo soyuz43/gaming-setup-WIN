@@ -1,0 +1,3 @@
+name	role	path
+xemu-live	emulator-root	<drive>:/Video_Games/Emulators/Xbox/xemu
+gaming-backup	local-archive	<drive>:/!BACKUP/gaming-setup-WIN
